@@ -18,6 +18,10 @@ app-workitem-board-card {
   padding: 7px;
 }
 
+.workitem-name-card-row {
+  padding: 5px;
+}
+
 :root {
     --color-r-text: #BBB;
     --color-r-text-active: #FFF;

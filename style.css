@@ -1,17 +1,17 @@
 h1, h2, h3, h4, h5, h6 {
-    color:  var(--color-r-text) !important;
+  color: var(--color-r-text) !important;
 }
 
 .workitem-preview-drawer {
-    width: 1000px;
+  width: 1000px;
 }
 
 input, gridster-item {
-    background-color: var(--color-r-bg);
+  background-color: var(--color-r-bg);
 }
 
 .skeleton-box {
-    background-color: unset;
+  background-color: unset;
 }
 
 app-workitem-board-card {
@@ -22,51 +22,63 @@ app-workitem-board-card {
   padding: 5px;
 }
 
+.document-meta {
+  padding-bottom: 15px;
+}
+
+.document-name {
+  padding-top: 15px;
+}
+
+:root body {
+  --editor-row-margin-bottom: 0px;
+}
+
 :root {
-    --color-r-text: #BBB;
-    --color-r-text-active: #FFF;
-    --color-r-stoke: #406380;
-    --color-r-bg: #23272b;
+  --color-r-text: #BBB;
+  --color-r-text-active: #FFF;
+  --color-r-stoke: #406380;
+  --color-r-bg: #23272b;
 
-    --color-brand-bg-disabled: var(--color-r-stoke);
-    --color-slate-bg-primary: var(--color-r-stoke);
+  --color-brand-bg-disabled: var(--color-r-stoke);
+  --color-slate-bg-primary: var(--color-r-stoke);
 
-    --color-bg-main: var(--color-r-bg);
-    --color-sidebar-bg: var(--color-r-bg);
-    --color-status-inprogress-normal-bg: var(--color-r-bg);
-    --color-status-todo-normal-bg: var(--color-r-bg);
-    --color-brand-bg-tertiary: #31363b;
-    --color-brand-bg-primary: var(--color-r-bg);
-    --color-status-todo-hover-bg: #31363b;
-    --color-light-bg-secondary-not-alpha: #31363b;
-    --color-light-bg-primary-not-alpha: #31363b;
-    --color-light-bg-secondary-alpha: #31363b;
+  --color-bg-main: var(--color-r-bg);
+  --color-sidebar-bg: var(--color-r-bg);
+  --color-status-inprogress-normal-bg: var(--color-r-bg);
+  --color-status-todo-normal-bg: var(--color-r-bg);
+  --color-brand-bg-tertiary: #31363b;
+  --color-brand-bg-primary: var(--color-r-bg);
+  --color-status-todo-hover-bg: #31363b;
+  --color-light-bg-secondary-not-alpha: #31363b;
+  --color-light-bg-primary-not-alpha: #31363b;
+  --color-light-bg-secondary-alpha: #31363b;
 
-    --color-special-tertiary-1: #31363b;
+  --color-special-tertiary-1: #31363b;
 
-    --color-light-bg-primary: #31363b;
-    --color-sidebar-option-bg-selected: #31363b;
-    --color-sidebar-option-bg-active: #31363b;
-    --color-light-bg-secondary: #31363b;
-    --color-sidebar-option-bg-hover: #31363b;
+  --color-light-bg-primary: #31363b;
+  --color-sidebar-option-bg-selected: #31363b;
+  --color-sidebar-option-bg-active: #31363b;
+  --color-light-bg-secondary: #31363b;
+  --color-sidebar-option-bg-hover: #31363b;
 
-    --color-stroke-primary: var(--color-r-stoke);
-    --color-stroke-secondary: var(--color-r-stoke);
-    --color-text-reverse: #d5d5d5;
-    --color-status-todo-stroke: var(--color-r-stoke);
-    --color-status-inprogress-stroke: var(--color-r-stoke);
+  --color-stroke-primary: var(--color-r-stoke);
+  --color-stroke-secondary: var(--color-r-stoke);
+  --color-text-reverse: #d5d5d5;
+  --color-status-todo-stroke: var(--color-r-stoke);
+  --color-status-inprogress-stroke: var(--color-r-stoke);
 
-    --color-text-primary: var(--color-r-text);
-    --color-sidebar-option-text: var(--color-r-text);
-    --button-color: var(--color-r-text) !important;
-    --color-sidebar-option-text-active: var(--color-r-text-active);
-    --color-workspace-select-text: var(--color-r-text);
-    --color-status-tag-text: var(--color-r-text);
-    --color-status-inprogress-text: var(--color-r-text);
-    --color-stroke-brand: var(--color-r-text);
+  --color-text-primary: var(--color-r-text);
+  --color-sidebar-option-text: var(--color-r-text);
+  --button-color: var(--color-r-text) !important;
+  --color-sidebar-option-text-active: var(--color-r-text-active);
+  --color-workspace-select-text: var(--color-r-text);
+  --color-status-tag-text: var(--color-r-text);
+  --color-status-inprogress-text: var(--color-r-text);
+  --color-stroke-brand: var(--color-r-text);
 
-    --color-special-secondary-8: #455361;
-    --color-special-tertiary-12: var(--color-r-bg);
-    --color-special-tertiary-8: var(--color-r-bg);
-    --color-special-tertiary-24: var(--color-r-bg);
+  --color-special-secondary-8: #455361;
+  --color-special-tertiary-12: var(--color-r-bg);
+  --color-special-tertiary-8: var(--color-r-bg);
+  --color-special-tertiary-24: var(--color-r-bg);
 }
